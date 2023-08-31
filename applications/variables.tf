@@ -1,4 +1,5 @@
-variable "app_name" {
-  description = "Name of the Node.js application"
-  type        = string
-}
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "subnet_id" {}
+
+
